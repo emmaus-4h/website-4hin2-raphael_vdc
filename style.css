@@ -1,89 +1,119 @@
-/* Basislayout */
+/* Base */
 
 html, body {
-    height: 100%;
-    padding: 0;
-    background-color: #EEEEEE;  
-    
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+  height: 100%;
+  padding: 0; 
+  background-color: black;
+  background-image: url('pics/background.gif');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #303030;
+  font: Verdana, Arial, Sans-Serif;
 }
-
 
 main {
-    margin: 0 auto;
-    width: 700px;
-    position: relative;
+  margin: 0 auto;
+  width: 700px;
+  position: relative;
 }
-
 
 article {
-    text-align: justify;
+  text-align: justify;
+  font-family: cursive;
+  color: #c0c0c0;
 }
-
 
 header {
-    color: skyblue;
-    text-align: center;
+  color: #cfcfcf;
+  text-align: center;
+  font-family: cursive;
 }
-
 
 footer {
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #cfcfcf;
 }
 
 
-/* specifieke stijlen */
+/* specifics */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+  float: left;
+  margin-right: 15px;
 }
 
 .smalltext {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
-    text-decoration: none;
+  color: skyblue;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
-/* navigatiebalk */
+/* nav */
+
 nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: #8d721e;
+  overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+  float: left;
+  ont-family: cursive;
+  color: #000000;
 }
 
 nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+  background-color: #800000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+  background-color: #580202;
 }
 
 
+/* text CSS */
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
 
 
+/* images specifics */
+
+#skyrim1 {
+  width: 40%;
+}
+
+#bethesda {
+  width: 50%;
+}
+
+#todd_howard {
+  width: 50%;
+}
