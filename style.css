@@ -21,6 +21,7 @@ main {
 article {
   text-align: justify;
   font-family: cursive;
+  font-size: 110%;
   color: #c0c0c0;
 }
 
@@ -70,7 +71,7 @@ nav ul {
 
 nav ul li {
   float: left;
-  ont-family: cursive;
+  font-family: cursive;
   color: #000000;
 }
 
