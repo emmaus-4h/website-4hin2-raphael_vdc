@@ -20,15 +20,15 @@ main {
 
 article {
   text-align: justify;
-  font-family: cursive;
-  font-size: 110%;
+  font-family: inherit;
+  font-size: 100%;
   color: #c0c0c0;
 }
 
 header {
   color: #cfcfcf;
   text-align: center;
-  font-family: cursive;
+  font-family: inherit;
 }
 
 footer {
@@ -58,12 +58,28 @@ a:hover {
   text-decoration: underline;
 }
 
+article ul {
+  list-style-type: none;
+}
+
+
+article ul li:before {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  background-image: url("pics/bullet point.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
 
 /* nav */
 
 nav ul {
   list-style-type: none;
-  margin: auto;
+  margin: 0;
   padding: 0;
   background-color: #8d721e;
   overflow: hidden;
@@ -71,7 +87,7 @@ nav ul {
 
 nav ul li {
   float: left;
-  font-family: cursive;
+  font-family: inherit;
   color: #000000;
 }
 
@@ -107,14 +123,76 @@ nav li a.active {
 
 /* images specifics */
 
+#logo {
+  width: 100%;
+}
+
+#width50 {
+  width: 50%;
+}
+
+#covers {
+  width: 30%
+}
+
 #skyrim1 {
   width: 40%;
 }
 
-#bethesda {
-  width: 50%;
+#skyrim2 {
+  width: 100%;
+  margin-top: 10px;
 }
 
-#todd_howard {
-  width: 50%;
+
+/* Nav Dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 100%;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #800000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8d721e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: inherit;
+}
+
+.dropdown-content a:hover {
+  background-color: #800000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#active {
+  background-color: #580202;
 }
