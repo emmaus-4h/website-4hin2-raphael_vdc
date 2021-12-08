@@ -66,9 +66,9 @@ article ul {
 article ul li:before {
   content: '';
   display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-size: 20px;
+  height: 13px;
+  width: 15px;
+  background-size: 15px;
   background-image: url("pics/bullet point.png");
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -146,6 +146,7 @@ nav li a.active {
 
 
 /* Nav Dropdown */
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -195,4 +196,11 @@ nav li a.active {
 
 #active {
   background-color: #580202;
+}
+
+
+/* Fixes */
+
+.p_fix {
+  height: 270px;
 }
