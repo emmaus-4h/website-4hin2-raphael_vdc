@@ -120,6 +120,11 @@ nav li a.active {
   margin-left: 15px;
 }
 
+/* Used if the heading of the below subject is interfering with the text. */
+.p_fix {
+  height: 270px;
+}
+
 
 /* images specifics */
 
@@ -132,7 +137,9 @@ nav li a.active {
 }
 
 #covers {
-  width: 30%
+  width: 30%;
+  float: left;
+  margin-right: 15px;
 }
 
 #skyrim1 {
@@ -196,11 +203,4 @@ nav li a.active {
 
 #active {
   background-color: #580202;
-}
-
-
-/* Fixes */
-
-.p_fix {
-  height: 270px;
 }
