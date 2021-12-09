@@ -66,9 +66,9 @@ article ul {
 article ul li:before {
   content: '';
   display: inline-block;
-  height: 13px;
-  width: 15px;
-  background-size: 15px;
+  height: 15px;
+  width: 10px;
+  background-size: 10px;
   background-image: url("pics/bullet point.png");
   background-repeat: no-repeat;
   margin-right: 5px;
