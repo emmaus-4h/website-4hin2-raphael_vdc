@@ -23,6 +23,8 @@ article {
   font-family: inherit;
   font-size: 100%;
   color: #c0c0c0;
+	width: 100%;
+	clear: both;
 }
 
 header {
@@ -40,18 +42,8 @@ footer {
 
 /* specifics */
 
-img.zweefLinks {
-  float: left;
-  margin-right: 15px;
-}
-
 .smalltext {
   font-size: 0.7em;
-}
-
-a {
-  color: skyblue;
-  text-decoration: none;
 }
 
 a:hover {
@@ -62,7 +54,6 @@ article ul {
   list-style-type: none;
 }
 
-
 article ul li:before {
   content: '';
   display: inline-block;
@@ -72,6 +63,12 @@ article ul li:before {
   background-image: url("pics/bullet point.png");
   background-repeat: no-repeat;
   margin-right: 5px;
+}
+
+table {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(pics/border.png) 30 round;
 }
 
 
@@ -107,8 +104,27 @@ nav li a.active {
   background-color: #580202;
 }
 
+#active {
+  background-color: #580202;
+}
+
 
 /* text CSS */
+
+#right {
+  float: right;
+	width: 335px;
+}
+
+
+/* Fixes */
+
+.p_fix {
+  height: 270px;
+}
+
+
+/* images specifics */
 
 .left {
   float: left;
@@ -120,19 +136,18 @@ nav li a.active {
   margin-left: 15px;
 }
 
-#right {
-  float: right;
-  margin-left: 15px;
+#todd {
+	margin-top: 15px;
+  float: left;
+  width: 49%;
+	margin-right: 2px;
 }
 
-
-/* Used if the heading of the below subject is interfering with the text. */
-.p_fix {
-  height: 270px;
+#todd-text {
+	float: right;
+  width: 50%;
+  font-family: inherit;
 }
-
-
-/* images specifics */
 
 #logo {
   width: 100%;
@@ -189,11 +204,11 @@ nav li a.active {
 }
 
 #dropdown-content1 {
-	max-width: 210px;
+	max-width: 100%;
 }
 
 #dropdown-content2 {
-	min-width: 162px;
+	max-width: 100%;
 }
 
 .dropdown-content a {
@@ -212,8 +227,4 @@ nav li a.active {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-#active {
-  background-color: #580202;
 }

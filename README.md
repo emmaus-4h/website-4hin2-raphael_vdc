@@ -50,7 +50,7 @@ Kies de uitbreidingen die je leuk vindt en maak je website nog mooier
 - [x] Geanimeerde achtergrond.
 - [x] Transparant foto's die samensmelten met de achtergrond.
 - [x] Bullet points wijzigen.
-- [ ] Foto's toevoegen aan de nav.
+- [x] Border image maken voor de tabel.
 
 ## Documentatie
 - Khan Academy cursus Intro to HTML en CSS 
