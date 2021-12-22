@@ -10,7 +10,7 @@
 <body>
 	<nav>
 		<ul>
-			<li><a class="active" href="index.html">Home and Info</a></li>
+			<li><a href="index.html">Home and Info</a></li>
 			<li>
 				<div class="dropdown">
 					<button class="dropbtn">The Elder Scrolls Franchise</button>
@@ -27,15 +27,16 @@
       </li>
 			<li><a href="mods.html">Elder Scrolls Mods</a></li>
 			<li>
-        <div class="dropdown">
-          <button class="dropbtn">In-Game Languages</button>
+        <div class="dropdown" id="active">
+          <button class="dropbtn" id="active">In-Game Languages</button>
           <div class="dropdown-content">
             <a href="dovahzul.html">Dovahzul</a>
-            <a href="daedric.html">Daedric</a>
+            <a href="daedric.html" class="active">Daedric</a>
             <a href="falmer.html">Falmer</a>
           </div>
         </div>
       </li>
+			<li><a href="geography.html">Geography and Architecture</a></li>
 		</ul>
 	</nav>
 	<main>
@@ -49,15 +50,16 @@
         The Daedric alphabet is found all around Nirn, mostly in ancient books like The Bible of the Deep Ones and The Tome of Unlife. Also, the Dunmer people of Morrowind seem to use Daedric symbols in some of their writings, often as names of locations written on banners. There is no Daedric language, a common misconception; only Daedric letters substituted for their Tamrielic equivalents. Some may refer to the Daedric alphabet as a font, but most Daedric letters are too dissimilar to be associated with their English equivalents. Neither are they symbols, runes, glyphs, etc.
       </p>
 
-      <h3>Alphabet</h3>
-      <hr/>
-      <img src="pics/daedric.png">
-
       <h3>History and origins</h3>
       <hr/>
       <p>
         The Daedric alphabet is the written form used by the Daedra and Dunmer of Tamriel. The alphabet is strongly affiliated with magicka. Daedric letters are often referred to as sigils, with various scrolls and tomes, such as the Mysterium Xarxes, written in the Daedric alphabet. The exact source of the alphabet is unknown, it is believed to be the creation of the Daedra themselves, then passed down to the mortal realm. Various symbols have Daedric glyphs, as it is the dialect of change. The PC versions of Morrowind and Oblivion were shipped with a Daedric True Type Font.
       </p>
+			
+      <h3>Alphabet</h3>
+      <hr/>
+      <img class="alphabet" src="pics/daedric.png">
+
     </article>
 		<footer>
 			<hr/>

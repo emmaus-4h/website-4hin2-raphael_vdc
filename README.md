@@ -3,7 +3,7 @@ Starter template for creating website in gitpod or replit
 
 Deze website is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 
-## Mijn website: The Elder Scrolls Seies
+## Mijn website: The Elder Scrolls Series
 Gemaakt door: Raphael v/d Corput
 
 ## Mijn planning

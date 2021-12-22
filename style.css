@@ -39,6 +39,10 @@ footer {
   color: #cfcfcf;
 }
 
+img {
+	vertical-align: middle;
+}
+
 
 /* specifics */
 
@@ -60,7 +64,7 @@ article ul li:before {
   height: 15px;
   width: 10px;
   background-size: 10px;
-  background-image: url("pics/bullet point.png");
+  background-image: url("pics/daedric logo.png");
   background-repeat: no-repeat;
   margin-right: 5px;
 }
@@ -69,6 +73,14 @@ table {
   border: 10px solid transparent;
   padding: 15px;
   border-image: url(pics/border.png) 30 round;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+h3 {
+	text-align: center;
 }
 
 
@@ -123,6 +135,10 @@ nav li a.active {
   height: 270px;
 }
 
+#caption-text_fix {
+	color: #161616;
+}
+
 
 /* images specifics */
 
@@ -170,6 +186,17 @@ nav li a.active {
 #skyrim2 {
   width: 100%;
   margin-top: 10px;
+}
+
+.alphabet {
+	width: 100%;
+	vertical-align: center;
+}
+
+.small-logo {
+	height: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 
@@ -220,4 +247,80 @@ nav li a.active {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+/* Slideshow */
+
+* {
+	box-sizing: border-box;
+}
+
+.slides {
+	display: none;
+}
+
+.container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.caption-text {
+  color: #c0c0c0;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: ##c0c0c0;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot-active {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 700pxpx) {
+  .caption-text {font-size: 11px}
 }

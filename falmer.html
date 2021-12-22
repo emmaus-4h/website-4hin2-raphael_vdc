@@ -10,7 +10,7 @@
 <body>
 	<nav>
 		<ul>
-			<li><a class="active" href="index.html">Home and Info</a></li>
+			<li><a href="index.html">Home and Info</a></li>
 			<li>
 				<div class="dropdown">
 					<button class="dropbtn">The Elder Scrolls Franchise</button>
@@ -27,15 +27,16 @@
       </li>
 			<li><a href="mods.html">Elder Scrolls Mods</a></li>
 			<li>
-        <div class="dropdown">
-          <button class="dropbtn">In-Game Languages</button>
+        <div class="dropdown" id="active">
+          <button class="dropbtn" id="active">In-Game Languages</button>
           <div class="dropdown-content">
             <a href="dovahzul.html">Dovahzul</a>
             <a href="daedric.html">Daedric</a>
-            <a href="falmer.html">Falmer</a>
+            <a href="falmer.html" class="active">Falmer</a>
           </div>
         </div>
       </li>
+			<li><a href="geography.html">Geography and Architecture</a></li>
 		</ul>
 	</nav>
 	<main>
@@ -64,7 +65,7 @@
 
       <h3>Falmer Alphabet</h3>
       <hr/>
-      <img src="pics/falmer.png">
+      <img class="alphabet" src="pics/falmer.png">
     </article>
 		<footer>
 			<hr/>
