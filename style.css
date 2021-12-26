@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   padding: 0; 
   background-color: black;
-  background-image: url('pics/background.gif');
+  background-image: url('pics/backgrounds/background.gif');
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -64,7 +64,7 @@ article ul li:before {
   height: 15px;
   width: 10px;
   background-size: 10px;
-  background-image: url("pics/daedric logo.png");
+  background-image: url("pics/logos/daedric logo.png");
   background-repeat: no-repeat;
   margin-right: 5px;
 }
@@ -72,7 +72,7 @@ article ul li:before {
 table {
   border: 10px solid transparent;
   padding: 15px;
-  border-image: url(pics/border.png) 30 round;
+  border-image: url(pics/borders/border.png) 30 round;
 }
 
 ol {
@@ -175,17 +175,11 @@ nav li a.active {
 
 #covers {
   width: 30%;
-  float: left;
   margin-right: 15px;
 }
 
 #skyrim1 {
   width: 40%;
-}
-
-#skyrim2 {
-  width: 100%;
-  margin-top: 10px;
 }
 
 .alphabet {
@@ -197,6 +191,11 @@ nav li a.active {
 	height: 20px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+#skyrim2 {
+  width: 100%;
+  margin-top: 10px;
 }
 
 
